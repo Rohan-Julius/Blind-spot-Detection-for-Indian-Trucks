@@ -5,30 +5,6 @@ YOLOv11 (edge/tiny) deployed on Raspberry Pi 5 — ROI overlays, color-coded ale
 
 ---
 
-## Table of Contents
-
-* [Project Overview](#project-overview)
-* [Key Features](#key-features)
-* [System Architecture](#system-architecture)
-* [Dataset](#dataset)
-* [Results & Metrics](#results--metrics)
-* [Getting Started](#getting-started)
-
-  * [Prerequisites](#prerequisites)
-  * [Install](#install)
-  * [Quick Run (camera / video)](#quick-run-camera--video)
-* [Tools & Commands (CLI)](#tools--commands-cli)
-* [ROI Design & Tuning](#roi-design--tuning)
-* [Tracking & Prediction Module](#tracking--prediction-module)
-* [Training from scratch](#training-from-scratch)
-* [Evaluation & Reproducing Metrics](#evaluation--reproducing-metrics)
-* [Optimizations for Raspberry Pi 5 (edge)](#optimizations-for-raspberry-pi-5-edge)
-* [Limitations & Future Work](#limitations--future-work)
-* [Troubleshooting](#troubleshooting)
-* [License & Contact](#license--contact)
-
----
-
 ## Project Overview
 
 Trucks have large lateral blind spots that cause accidents during lane changes, turns, reversing, and depot maneuvers. This project implements a **low-latency, single-camera, on-edge** system to detect vehicles entering a truck’s blind spot and to provide stable, actionable alerts to drivers.
