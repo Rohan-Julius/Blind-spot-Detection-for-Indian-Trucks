@@ -1,4 +1,4 @@
-# Blind-Spot Detection for Trucks — Real-time ROI-gated YOLO
+# Blind-Spot Detection for Indian Trucks — Real-time ROI-gated YOLO
 
 **Real-time single-camera blind-spot detection for trucks using ROI gating and optional SORT+Kalman tracking.**
 YOLOv11 (edge/tiny) deployed on Raspberry Pi 5 — ROI overlays, color-coded alerts, and trajectory ghosting for anticipatory warnings.
