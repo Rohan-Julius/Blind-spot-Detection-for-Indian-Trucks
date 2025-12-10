@@ -1,4 +1,4 @@
-<img width="1029" height="564" alt="Screenshot 2025-12-10 at 8 15 17 PM" src="https://github.com/user-attachments/assets/6729c53d-1dac-47bc-9e52-dfaab71290f8" /># Blind-Spot Detection for Trucks — Real-time ROI-gated YOLO
+# Blind-Spot Detection for Trucks — Real-time ROI-gated YOLO
 
 **Real-time single-camera blind-spot detection for trucks using ROI gating and optional SORT+Kalman tracking.**
 YOLOv11 (edge/tiny) deployed on Raspberry Pi 5 — ROI overlays, color-coded alerts, and trajectory ghosting for anticipatory warnings.
@@ -85,10 +85,12 @@ Shows how the blind-spot region is defined on the input frame using a perspectiv
 
 ## Object Detected Inside ROI
 Demonstrates a vehicle entering the blind-spot zone, triggering an ROI hit and alert.
+
 <img width="406" height="710" alt="Screenshot 2025-12-10 at 8 16 51 PM" src="https://github.com/user-attachments/assets/ded6b558-58ce-4319-bf53-5e26389ecfd0" />
 
 ## No Object Inside ROI
 Displays a clear blind-spot region with no vehicles present inside the ROI.
+
 <img width="406" height="710" alt="Screenshot 2025-12-10 at 8 18 21 PM" src="https://github.com/user-attachments/assets/e2f55e04-6aa9-4f17-9d36-7ad742c02353" />
 
 ---
